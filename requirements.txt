@@ -1,3 +1,8 @@
+webnma (install webnma using "https://github.com/reuter-group/webnma3")
+
+STRIDE (install via https://webclu.bio.wzw.tum.de/stride/)
+
+General requirements
 MDAnalysis
 argparse
 pandas
