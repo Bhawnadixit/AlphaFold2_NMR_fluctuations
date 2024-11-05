@@ -1,0 +1,193 @@
+REM  --------------------------------------------------------------------  2MZN
+REM                                                                        2MZN
+REM  STRIDE: Knowledge-based secondary structure assignment                2MZN
+REM  Please cite: D.Frishman & P.Argos, Proteins XX, XXX-XXX, 1995         2MZN
+REM                                                                        2MZN
+REM  Residue accessible surface area calculation                           2MZN
+REM  Please cite: F.Eisenhaber & P.Argos, J.Comp.Chem. 14, 1272-1280, 1993 2MZN
+REM               F.Eisenhaber et al., J.Comp.Chem., 1994, submitted       2MZN
+REM                                                                        2MZN
+REM  ------------------------ General information -----------------------  2MZN
+REM                                                                        2MZN
+HDR  DNA BINDING PROTEIN                     18-FEB-15   2MZN              2MZN
+CMP  MOL_ID: 1;                                                            2MZN
+CMP  2 MOLECULE: HELICASE-LIKE TRANSCRIPTION FACTOR;                       2MZN
+CMP  3 CHAIN: A;                                                           2MZN
+CMP  4 FRAGMENT: UNP RESIDUES 51-171;                                      2MZN
+CMP  5 SYNONYM: DNA-BINDING PROTEIN/PLASMINOGEN ACTIVATOR INHIBITO         2MZN
+CMP  6 REGULATOR, HIP116, RING FINGER PROTEIN 80, SWI/SNF-RELATED          2MZN
+CMP  7 ASSOCIATED ACTIN-DEPENDENT REGULATOR OF CHROMATIN SUBFAMILY         2MZN
+CMP  8 3, SUCROSE NONFERMENTING PROTEIN 2-LIKE 3;                          2MZN
+CMP  9 ENGINEERED: YES                                                     2MZN
+REM                                                                        2MZN
+REM  -------------------- Secondary structure summary -------------------  2MZN
+REM                                                                        2MZN
+CHN  test_example/AF2/NMR_analysis/nmr_state_ A                            2MZN
+REM                                                                        2MZN
+REM                .         .         .         .         .               2MZN
+SEQ  1    GSDEEVDSVLFGSLRGHVVGLRYYTGVVNNNEMVALQRDPNNPYDKNAIK   50          2MZN
+STR       TTTTTTTTEEEEEE  EETTTTTTTT  TTTTEEEEEbTTTTTTTTTTEE               2MZN
+REM                                                                        2MZN
+REM                .         .         .         .         .               2MZN
+SEQ  51   VNNVNGNQVGHLKKELAGALAYIMDNKLAQIEGVVPFGANNAFTMPLHMT  100          2MZN
+STR       EEETTTTEEEEE HHHHHHHHHHHHH   EEEEETTTTTTTTTTEE EEE               2MZN
+REM                                                                        2MZN
+REM                .         .                                             2MZN
+SEQ  101  FWGKEENRKAVSDQLKKHGFKL                              122          2MZN
+STR       EEE  HHHHHHHHHHHHH                                               2MZN
+REM                                                                        2MZN
+REM                                                                        2MZN
+REM                                                                        2MZN
+LOC  AlphaHelix   LYS   113 A      ASN    125 A                            2MZN
+LOC  AlphaHelix   GLU   155 A      HIS    167 A                            2MZN
+LOC  Strand       VAL    58 A      LEU     63 A                            2MZN
+LOC  Strand       HIS    66 A      VAL     67 A                            2MZN
+LOC  Strand       MET    82 A      GLN     86 A                            2MZN
+LOC  Strand       ILE    98 A      ASN    102 A                            2MZN
+LOC  Strand       GLN   107 A      LEU    111 A                            2MZN
+LOC  Strand       GLN   129 A      VAL    133 A                            2MZN
+LOC  Strand       MET   144 A      PRO    145 A                            2MZN
+LOC  Strand       HIS   147 A      GLY    152 A                            2MZN
+LOC  TurnI        GLY    50 A      GLU     53 A                            2MZN
+LOC  TurnI        SER    51 A      GLU     54 A                            2MZN
+LOC  TurnIV       ASP    52 A      VAL     55 A                            2MZN
+LOC  TurnVIII     GLU    54 A      SER     57 A                            2MZN
+LOC  TurnI        VAL    67 A      LEU     70 A                            2MZN
+LOC  TurnI        GLY    69 A      TYR     72 A                            2MZN
+LOC  TurnIV       ARG    71 A      THR     74 A                            2MZN
+LOC  TurnIV       TYR    72 A      GLY     75 A                            2MZN
+LOC  TurnI        ASN    78 A      GLU     81 A                            2MZN
+LOC  TurnIV       ASP    88 A      ASN     91 A                            2MZN
+LOC  TurnI        ASN    91 A      ASP     94 A                            2MZN
+LOC  TurnI        ASP    94 A      ALA     97 A                            2MZN
+LOC  TurnI        ASN   102 A      GLY    105 A                            2MZN
+LOC  TurnI        VAL   134 A      GLY    137 A                            2MZN
+LOC  TurnIV       PHE   136 A      ASN    139 A                            2MZN
+LOC  TurnIV       ASN   140 A      THR    143 A                            2MZN
+LOC  GammaInv     ASN   106 A      VAL    108 A                            2MZN
+REM                                                                        2MZN
+REM  --------------- Detailed secondary structure assignment-------------  2MZN
+REM                                                                        2MZN
+REM  |---Residue---|    |--Structure--|   |-Phi-|   |-Psi-|  |-Area-|      2MZN
+ASG  GLY A   50    1    T          Turn    360.00    113.77      71.5      2MZN
+ASG  SER A   51    2    T          Turn    -64.47    -19.43      81.7      2MZN
+ASG  ASP A   52    3    T          Turn    -67.74    -41.51     138.6      2MZN
+ASG  GLU A   53    4    T          Turn    -84.20     -7.06     181.0      2MZN
+ASG  GLU A   54    5    T          Turn   -131.09     37.25      24.4      2MZN
+ASG  VAL A   55    6    T          Turn    -68.60    -28.21     127.1      2MZN
+ASG  ASP A   56    7    T          Turn    -97.55    132.87     117.1      2MZN
+ASG  SER A   57    8    T          Turn    -77.06    128.24      81.2      2MZN
+ASG  VAL A   58    9    E        Strand    -97.19    150.16      23.4      2MZN
+ASG  LEU A   59   10    E        Strand    -83.05    109.67      73.1      2MZN
+ASG  PHE A   60   11    E        Strand    -69.69    -35.60      56.9      2MZN
+ASG  GLY A   61   12    E        Strand    158.36   -161.02      26.5      2MZN
+ASG  SER A   62   13    E        Strand   -121.94    134.84      98.8      2MZN
+ASG  LEU A   63   14    E        Strand    -97.04    161.16       9.2      2MZN
+ASG  ARG A   64   15    C          Coil   -147.64     11.65     201.5      2MZN
+ASG  GLY A   65   16    C          Coil    -70.36    172.12      11.3      2MZN
+ASG  HIS A   66   17    E        Strand   -103.63    134.64     101.9      2MZN
+ASG  VAL A   67   18    E        Strand   -101.80    116.10       3.8      2MZN
+ASG  VAL A   68   19    T          Turn    -90.10    -12.36      50.2      2MZN
+ASG  GLY A   69   20    T          Turn    -64.08    -14.91       7.3      2MZN
+ASG  LEU A   70   21    T          Turn    -54.26    -21.50       0.8      2MZN
+ASG  ARG A   71   22    T          Turn    -85.57      8.15     213.7      2MZN
+ASG  TYR A   72   23    T          Turn    -60.69    -67.38     127.9      2MZN
+ASG  TYR A   73   24    T          Turn   -115.74    -69.40     184.8      2MZN
+ASG  THR A   74   25    T          Turn   -124.69    -45.72      75.7      2MZN
+ASG  GLY A   75   26    T          Turn     78.47    -20.13       0.8      2MZN
+ASG  VAL A   76   27    C          Coil    -76.31    129.12      87.7      2MZN
+ASG  VAL A   77   28    C          Coil   -137.65   -173.37      20.4      2MZN
+ASG  ASN A   78   29    T          Turn    -63.17    152.70      75.8      2MZN
+ASG  ASN A   79   30    T          Turn    -69.18    -30.00     118.4      2MZN
+ASG  ASN A   80   31    T          Turn   -113.11     29.49     112.8      2MZN
+ASG  GLU A   81   32    T          Turn    -55.43    149.41      12.4      2MZN
+ASG  MET A   82   33    E        Strand   -120.08    134.54     112.3      2MZN
+ASG  VAL A   83   34    E        Strand   -125.55    175.99       7.8      2MZN
+ASG  ALA A   84   35    E        Strand   -149.14    140.79      54.1      2MZN
+ASG  LEU A   85   36    E        Strand    -94.80    130.61      17.9      2MZN
+ASG  GLN A   86   37    E        Strand   -130.66    151.07     102.0      2MZN
+ASG  ARG A   87   38    b        Bridge    -68.24   -170.77     124.4      2MZN
+ASG  ASP A   88   39    T          Turn    -55.36    112.99      25.8      2MZN
+ASG  PRO A   89   40    T          Turn    -89.34     -7.44      59.1      2MZN
+ASG  ASN A   90   41    T          Turn   -162.41     13.07     143.4      2MZN
+ASG  ASN A   91   42    T          Turn   -107.24    100.20      61.5      2MZN
+ASG  PRO A   92   43    T          Turn    -67.56    -44.59     114.2      2MZN
+ASG  TYR A   93   44    T          Turn    -88.22    -32.01     227.8      2MZN
+ASG  ASP A   94   45    T          Turn   -101.00     88.83      69.8      2MZN
+ASG  LYS A   95   46    T          Turn    -77.49    -19.07     115.8      2MZN
+ASG  ASN A   96   47    T          Turn    -80.32     -0.75      35.5      2MZN
+ASG  ALA A   97   48    T          Turn    -70.77    104.96       0.8      2MZN
+ASG  ILE A   98   49    E        Strand   -110.89    108.00       1.4      2MZN
+ASG  LYS A   99   50    E        Strand    -92.51    135.46      21.6      2MZN
+ASG  VAL A  100   51    E        Strand   -102.72    127.29       3.8      2MZN
+ASG  ASN A  101   52    E        Strand   -125.03    147.34      35.7      2MZN
+ASG  ASN A  102   53    E        Strand    -81.75    179.38      15.5      2MZN
+ASG  VAL A  103   54    T          Turn    -60.31    -29.95     115.9      2MZN
+ASG  ASN A  104   55    T          Turn    -74.16    -32.32     127.0      2MZN
+ASG  GLY A  105   56    T          Turn    114.80     -0.59      34.9      2MZN
+ASG  ASN A  106   57    T          Turn    -65.72    139.72      65.2      2MZN
+ASG  GLN A  107   58    E        Strand    -76.27     88.58      60.6      2MZN
+ASG  VAL A  108   59    E        Strand    -71.77    -40.62       4.6      2MZN
+ASG  GLY A  109   60    E        Strand   -154.20   -170.67       0.4      2MZN
+ASG  HIS A  110   61    E        Strand   -157.46    127.61      54.7      2MZN
+ASG  LEU A  111   62    E        Strand    -68.15    136.90       1.0      2MZN
+ASG  LYS A  112   63    C          Coil    -59.76    118.30      64.9      2MZN
+ASG  LYS A  113   64    H    AlphaHelix    -57.57    -28.10     133.1      2MZN
+ASG  GLU A  114   65    H    AlphaHelix    -64.32    -37.27     111.0      2MZN
+ASG  LEU A  115   66    H    AlphaHelix    -86.67    -35.82      41.1      2MZN
+ASG  ALA A  116   67    H    AlphaHelix    -60.08    -18.24       0.0      2MZN
+ASG  GLY A  117   68    H    AlphaHelix    -54.08    -28.08      14.3      2MZN
+ASG  ALA A  118   69    H    AlphaHelix    -93.30    -47.89       0.0      2MZN
+ASG  LEU A  119   70    H    AlphaHelix    -63.65    -19.57       0.8      2MZN
+ASG  ALA A  120   71    H    AlphaHelix    -63.70    -33.80       7.6      2MZN
+ASG  TYR A  121   72    H    AlphaHelix    -69.91    -36.88     119.9      2MZN
+ASG  ILE A  122   73    H    AlphaHelix    -66.79    -43.32       0.2      2MZN
+ASG  MET A  123   74    H    AlphaHelix    -74.91    -43.70      33.9      2MZN
+ASG  ASP A  124   75    H    AlphaHelix    -78.92    -55.30     115.9      2MZN
+ASG  ASN A  125   76    H    AlphaHelix    -76.90     -4.67     111.8      2MZN
+ASG  LYS A  126   77    C          Coil     61.47     41.74     114.8      2MZN
+ASG  LEU A  127   78    C          Coil    -60.63    -39.60      14.8      2MZN
+ASG  ALA A  128   79    C          Coil   -170.21    169.73       8.3      2MZN
+ASG  GLN A  129   80    E        Strand    -95.75    146.27     112.7      2MZN
+ASG  ILE A  130   81    E        Strand   -112.19    102.23      11.6      2MZN
+ASG  GLU A  131   82    E        Strand    -84.74    147.82      95.8      2MZN
+ASG  GLY A  132   83    E        Strand   -135.01    163.40       0.2      2MZN
+ASG  VAL A  133   84    E        Strand   -147.29    134.28      38.3      2MZN
+ASG  VAL A  134   85    T          Turn   -107.74     91.63       0.8      2MZN
+ASG  PRO A  135   86    T          Turn    -77.56    -11.24      69.2      2MZN
+ASG  PHE A  136   87    T          Turn    -73.82    -23.40      71.7      2MZN
+ASG  GLY A  137   88    T          Turn     80.43     -8.38       1.1      2MZN
+ASG  ALA A  138   89    T          Turn     54.70     38.74       0.0      2MZN
+ASG  ASN A  139   90    T          Turn    -67.71    -20.47     135.1      2MZN
+ASG  ASN A  140   91    T          Turn    -86.18    132.55      77.5      2MZN
+ASG  ALA A  141   92    T          Turn    -83.09    -21.56      63.8      2MZN
+ASG  PHE A  142   93    T          Turn    -77.32   -177.00     174.4      2MZN
+ASG  THR A  143   94    T          Turn    -71.39    136.65      74.2      2MZN
+ASG  MET A  144   95    E        Strand   -134.50    160.90       3.5      2MZN
+ASG  PRO A  145   96    E        Strand    -70.64    168.32      44.1      2MZN
+ASG  LEU A  146   97    C          Coil   -133.51    149.21       3.2      2MZN
+ASG  HIS A  147   98    E        Strand   -111.45    106.41      98.1      2MZN
+ASG  MET A  148   99    E        Strand   -115.42    148.64       2.9      2MZN
+ASG  THR A  149  100    E        Strand   -114.43    128.71      35.1      2MZN
+ASG  PHE A  150  101    E        Strand    -95.80    112.42       1.0      2MZN
+ASG  TRP A  151  102    E        Strand   -114.69    132.74      85.7      2MZN
+ASG  GLY A  152  103    E        Strand   -156.45   -132.49      14.0      2MZN
+ASG  LYS A  153  104    C          Coil   -139.20    162.65      75.4      2MZN
+ASG  GLU A  154  105    C          Coil    -68.10    -37.29     105.5      2MZN
+ASG  GLU A  155  106    H    AlphaHelix    -71.33    -39.46     112.5      2MZN
+ASG  ASN A  156  107    H    AlphaHelix    -80.69     -9.91      46.1      2MZN
+ASG  ARG A  157  108    H    AlphaHelix    -48.75    -46.30      73.8      2MZN
+ASG  LYS A  158  109    H    AlphaHelix    -64.53    -40.60     149.9      2MZN
+ASG  ALA A  159  110    H    AlphaHelix    -60.38    -49.19      38.5      2MZN
+ASG  VAL A  160  111    H    AlphaHelix    -74.37    -40.97       1.8      2MZN
+ASG  SER A  161  112    H    AlphaHelix    -59.16    -45.56      23.7      2MZN
+ASG  ASP A  162  113    H    AlphaHelix    -59.07    -53.78      72.7      2MZN
+ASG  GLN A  163  114    H    AlphaHelix    -55.54    -39.63      31.5      2MZN
+ASG  LEU A  164  115    H    AlphaHelix    -64.56    -54.78       4.3      2MZN
+ASG  LYS A  165  116    H    AlphaHelix    -75.26    -32.01     147.6      2MZN
+ASG  LYS A  166  117    H    AlphaHelix    -72.12    -47.41     160.8      2MZN
+ASG  HIS A  167  118    H    AlphaHelix    -71.69    -29.78      65.5      2MZN
+ASG  GLY A  168  119    C          Coil     74.82     27.18      54.4      2MZN
+ASG  PHE A  169  120    C          Coil   -142.54    137.79      93.7      2MZN
+ASG  LYS A  170  121    C          Coil   -159.90    154.43      90.4      2MZN
+ASG  LEU A  171  122    C          Coil   -124.63    360.00       6.1      2MZN

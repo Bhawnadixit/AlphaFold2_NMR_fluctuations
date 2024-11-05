@@ -1,0 +1,180 @@
+REM  --------------------------------------------------------------------  4UZM
+REM                                                                        4UZM
+REM  STRIDE: Knowledge-based secondary structure assignment                4UZM
+REM  Please cite: D.Frishman & P.Argos, Proteins XX, XXX-XXX, 1995         4UZM
+REM                                                                        4UZM
+REM  Residue accessible surface area calculation                           4UZM
+REM  Please cite: F.Eisenhaber & P.Argos, J.Comp.Chem. 14, 1272-1280, 1993 4UZM
+REM               F.Eisenhaber et al., J.Comp.Chem., 1994, submitted       4UZM
+REM                                                                        4UZM
+REM  ------------------------ General information -----------------------  4UZM
+REM                                                                        4UZM
+HDR  STRUCTURAL PROTEIN                      05-SEP-14   4UZM              4UZM
+CMP  MOL_ID: 1;                                                            4UZM
+CMP  2 MOLECULE: PUTATIVE MEMBRANE PROTEIN IGAA HOMOLOG;                   4UZM
+CMP  3 CHAIN: A;                                                           4UZM
+CMP  4 SYNONYM: YRFF;                                                      4UZM
+CMP  5 ENGINEERED: YES                                                     4UZM
+REM                                                                        4UZM
+REM  -------------------- Secondary structure summary -------------------  4UZM
+REM                                                                        4UZM
+CHN  test_example/AF2/NMR_analysis/nmr_state_ A                            4UZM
+REM                                                                        4UZM
+REM                .         .         .         .         .               4UZM
+SEQ  1    AFADAQTRKLTPEERSAVENYLESLTQVLQVPGPTGASAAPISLALNAES   50          4UZM
+STR        TTTTEEEE  HHHHHHHHHHHHHHHH                    GGG               4UZM
+REM                                                                        4UZM
+REM                .         .         .         .         .               4UZM
+SEQ  51   NNVMMLTHAITRYGISTDDPNKWRYYLDSVEVHLPPFWEQYINDENTVEL  100          4UZM
+STR       GEEEEEEE EEEETTTT      EEEETTEEEB TTTTTTTTTTTEEEEE               4UZM
+REM                                                                        4UZM
+REM                .                                                       4UZM
+SEQ  101  IHTDSLPLVISLNGHTLQE                                 119          4UZM
+STR       EETTTTEEEEEETTEE                                                 4UZM
+REM                                                                        4UZM
+REM                                                                        4UZM
+REM                                                                        4UZM
+LOC  AlphaHelix   PRO    47 A      GLN     62 A                            4UZM
+LOC  310Helix     ALA    83 A      ASN     86 A                            4UZM
+LOC  Strand       GLN    41 A      LYS     44 A                            4UZM
+LOC  Strand       ASN    87 A      HIS     93 A                            4UZM
+LOC  Strand       ILE    95 A      TYR     98 A                            4UZM
+LOC  Strand       ARG   109 A      LEU    112 A                            4UZM
+LOC  Strand       VAL   115 A      VAL    117 A                            4UZM
+LOC  Strand       ASN   131 A      HIS    137 A                            4UZM
+LOC  Strand       PRO   142 A      LEU    147 A                            4UZM
+LOC  Strand       HIS   150 A      THR    151 A                            4UZM
+LOC  TurnI        PHE    37 A      ALA     40 A                            4UZM
+LOC  TurnIV       GLY    99 A      THR    102 A                            4UZM
+LOC  TurnII'      LEU   112 A      VAL    115 A                            4UZM
+LOC  TurnI        PRO   120 A      TRP    123 A                            4UZM
+LOC  TurnI        PRO   121 A      GLU    124 A                            4UZM
+LOC  TurnIV       PHE   122 A      GLN    125 A                            4UZM
+LOC  TurnI        TRP   123 A      TYR    126 A                            4UZM
+LOC  TurnI        GLU   124 A      ILE    127 A                            4UZM
+LOC  TurnVIII     ASN   128 A      ASN    131 A                            4UZM
+LOC  TurnIV       THR   138 A      LEU    141 A                            4UZM
+LOC  TurnII       LEU   147 A      HIS    150 A                            4UZM
+REM                                                                        4UZM
+REM  --------------- Detailed secondary structure assignment-------------  4UZM
+REM                                                                        4UZM
+REM  |---Residue---|    |--Structure--|   |-Phi-|   |-Psi-|  |-Area-|      4UZM
+ASG  ALA A   36    1    C          Coil    360.00    -33.23      54.6      4UZM
+ASG  PHE A   37    2    T          Turn   -109.23     30.36      48.7      4UZM
+ASG  ALA A   38    3    T          Turn    -75.19    -42.79      88.7      4UZM
+ASG  ASP A   39    4    T          Turn   -118.73      8.43     158.3      4UZM
+ASG  ALA A   40    5    T          Turn    -54.95    131.30      18.5      4UZM
+ASG  GLN A   41    6    E        Strand    -64.19    174.10     139.5      4UZM
+ASG  THR A   42    7    E        Strand   -146.40    141.78      89.1      4UZM
+ASG  ARG A   43    8    E        Strand   -149.75    150.16     124.9      4UZM
+ASG  LYS A   44    9    E        Strand    -81.68    135.82     149.8      4UZM
+ASG  LEU A   45   10    C          Coil    -74.98    137.81       8.0      4UZM
+ASG  THR A   46   11    C          Coil    -85.03    155.09      46.4      4UZM
+ASG  PRO A   47   12    H    AlphaHelix    -56.94    -40.65     104.9      4UZM
+ASG  GLU A   48   13    H    AlphaHelix    -64.63    -45.10     148.8      4UZM
+ASG  GLU A   49   14    H    AlphaHelix    -65.12    -37.58      37.1      4UZM
+ASG  ARG A   50   15    H    AlphaHelix    -68.44    -31.87      92.1      4UZM
+ASG  SER A   51   16    H    AlphaHelix    -70.99    -47.17      50.5      4UZM
+ASG  ALA A   52   17    H    AlphaHelix    -63.10    -46.10      16.8      4UZM
+ASG  VAL A   53   18    H    AlphaHelix    -56.60    -57.38       1.8      4UZM
+ASG  GLU A   54   19    H    AlphaHelix    -54.42    -31.31      67.4      4UZM
+ASG  ASN A   55   20    H    AlphaHelix    -74.21    -33.87      80.9      4UZM
+ASG  TYR A   56   21    H    AlphaHelix    -72.97    -48.52      28.2      4UZM
+ASG  LEU A   57   22    H    AlphaHelix    -67.09    -36.72      10.0      4UZM
+ASG  GLU A   58   23    H    AlphaHelix    -63.94    -49.31     119.8      4UZM
+ASG  SER A   59   24    H    AlphaHelix    -65.69    -29.07      55.7      4UZM
+ASG  LEU A   60   25    H    AlphaHelix    -63.84    -30.62      36.3      4UZM
+ASG  THR A   61   26    H    AlphaHelix    -79.40    -39.80      49.1      4UZM
+ASG  GLN A   62   27    H    AlphaHelix    -81.63    -30.71     144.0      4UZM
+ASG  VAL A   63   28    C          Coil    -91.02    100.72      87.5      4UZM
+ASG  LEU A   64   29    C          Coil   -135.51    142.06      73.7      4UZM
+ASG  GLN A   65   30    C          Coil    -66.89    171.53     119.5      4UZM
+ASG  VAL A   66   31    C          Coil   -133.12     69.65     136.9      4UZM
+ASG  PRO A   67   32    C          Coil    -71.34    -27.42      84.9      4UZM
+ASG  GLY A   68   33    C          Coil     94.69     60.56      65.3      4UZM
+ASG  PRO A   69   34    C          Coil    -70.33    145.25      76.5      4UZM
+ASG  THR A   70   35    C          Coil    -93.25    163.19     138.9      4UZM
+ASG  GLY A   71   36    C          Coil     76.33   -106.76      79.7      4UZM
+ASG  ALA A   72   37    C          Coil    -77.99   -179.36      77.5      4UZM
+ASG  SER A   73   38    C          Coil    -98.31     30.38     118.3      4UZM
+ASG  ALA A   74   39    C          Coil     59.07    162.34      64.7      4UZM
+ASG  ALA A   75   40    C          Coil   -129.42    117.60      72.1      4UZM
+ASG  PRO A   76   41    C          Coil    -65.19    173.09      75.2      4UZM
+ASG  ILE A   77   42    C          Coil   -139.29     86.38      45.2      4UZM
+ASG  SER A   78   43    C          Coil   -120.57    143.04      55.1      4UZM
+ASG  LEU A   79   44    C          Coil   -101.95    134.13       8.1      4UZM
+ASG  ALA A   80   45    C          Coil    -87.19    133.50      56.1      4UZM
+ASG  LEU A   81   46    C          Coil    -65.44    136.63      67.3      4UZM
+ASG  ASN A   82   47    C          Coil   -125.40   -178.34      63.3      4UZM
+ASG  ALA A   83   48    G      310Helix    -55.49    -30.19      85.0      4UZM
+ASG  GLU A   84   49    G      310Helix    -68.22    -21.80      58.5      4UZM
+ASG  SER A   85   50    G      310Helix    -54.37    -16.24       3.0      4UZM
+ASG  ASN A   86   51    G      310Helix    -91.05     -3.58      41.3      4UZM
+ASG  ASN A   87   52    E        Strand   -124.78    106.15      60.9      4UZM
+ASG  VAL A   88   53    E        Strand    -83.33    127.07       0.0      4UZM
+ASG  MET A   89   54    E        Strand    -94.19    127.31      31.3      4UZM
+ASG  MET A   90   55    E        Strand   -105.29    128.77      34.7      4UZM
+ASG  LEU A   91   56    E        Strand   -158.24    143.61      11.9      4UZM
+ASG  THR A   92   57    E        Strand    -90.58    112.85      90.4      4UZM
+ASG  HIS A   93   58    E        Strand   -158.76    154.59      40.2      4UZM
+ASG  ALA A   94   59    C          Coil    -82.63    123.74      40.4      4UZM
+ASG  ILE A   95   60    E        Strand    -88.45    120.81      10.8      4UZM
+ASG  THR A   96   61    E        Strand    -88.43    152.60      57.7      4UZM
+ASG  ARG A   97   62    E        Strand   -117.56    115.47      59.6      4UZM
+ASG  TYR A   98   63    E        Strand   -114.93     98.39     115.1      4UZM
+ASG  GLY A   99   64    T          Turn    -73.76    122.53      41.7      4UZM
+ASG  ILE A  100   65    T          Turn   -128.88    -36.76     101.7      4UZM
+ASG  SER A  101   66    T          Turn    -67.70    -34.04      44.7      4UZM
+ASG  THR A  102   67    T          Turn   -163.41    166.89      34.4      4UZM
+ASG  ASP A  103   68    C          Coil    -97.38     14.47     164.6      4UZM
+ASG  ASP A  104   69    C          Coil   -120.23    133.50     113.2      4UZM
+ASG  PRO A  105   70    C          Coil    -34.48     87.96     106.8      4UZM
+ASG  ASN A  106   71    C          Coil   -156.30   -166.99       8.7      4UZM
+ASG  LYS A  107   72    C          Coil    -44.13    113.21      34.7      4UZM
+ASG  TRP A  108   73    C          Coil   -139.99    177.17      38.4      4UZM
+ASG  ARG A  109   74    E        Strand    -98.53    137.67      45.2      4UZM
+ASG  TYR A  110   75    E        Strand   -104.60    164.28       1.2      4UZM
+ASG  TYR A  111   76    E        Strand   -141.06    126.00      64.7      4UZM
+ASG  LEU A  112   77    E        Strand   -101.64    103.34       0.0      4UZM
+ASG  ASP A  113   78    T          Turn     65.62   -123.51      75.1      4UZM
+ASG  SER A  114   79    T          Turn    -97.35     18.63     105.7      4UZM
+ASG  VAL A  115   80    E        Strand   -123.31    154.04      52.6      4UZM
+ASG  GLU A  116   81    E        Strand    -91.33    132.25      88.6      4UZM
+ASG  VAL A  117   82    E        Strand   -135.67    168.24       0.3      4UZM
+ASG  HIS A  118   83    B        Bridge   -107.24    121.08      18.3      4UZM
+ASG  LEU A  119   84    C          Coil   -125.37    122.44       2.7      4UZM
+ASG  PRO A  120   85    T          Turn    -56.29    136.94       0.0      4UZM
+ASG  PRO A  121   86    T          Turn    -53.08    -11.71      58.6      4UZM
+ASG  PHE A  122   87    T          Turn    -85.90     -8.54      74.5      4UZM
+ASG  TRP A  123   88    T          Turn   -101.87     -2.63       1.6      4UZM
+ASG  GLU A  124   89    T          Turn    -49.06    -36.37      65.0      4UZM
+ASG  GLN A  125   90    T          Turn    -88.60    -24.93     129.1      4UZM
+ASG  TYR A  126   91    T          Turn    -80.53    -18.49      73.9      4UZM
+ASG  ILE A  127   92    T          Turn    -80.31    111.32      31.2      4UZM
+ASG  ASN A  128   93    T          Turn   -103.63   -174.59      87.9      4UZM
+ASG  ASP A  129   94    T          Turn    -49.22    -56.27     139.0      4UZM
+ASG  GLU A  130   95    T          Turn   -122.39    126.11     141.6      4UZM
+ASG  ASN A  131   96    E        Strand   -141.31    152.45       2.5      4UZM
+ASG  THR A  132   97    E        Strand    -80.59    109.77      73.4      4UZM
+ASG  VAL A  133   98    E        Strand   -118.74    127.60       0.0      4UZM
+ASG  GLU A  134   99    E        Strand   -112.47    115.05      29.1      4UZM
+ASG  LEU A  135  100    E        Strand   -135.28    149.49       0.0      4UZM
+ASG  ILE A  136  101    E        Strand   -108.88    133.61       0.4      4UZM
+ASG  HIS A  137  102    E        Strand    -76.10    116.13      38.1      4UZM
+ASG  THR A  138  103    T          Turn    -85.80   -164.52      13.0      4UZM
+ASG  ASP A  139  104    T          Turn    -76.79     -9.91     112.3      4UZM
+ASG  SER A  140  105    T          Turn   -120.67    -73.39      62.9      4UZM
+ASG  LEU A  141  106    T          Turn   -134.50    166.66      13.2      4UZM
+ASG  PRO A  142  107    E        Strand    -76.91    128.14       3.8      4UZM
+ASG  LEU A  143  108    E        Strand    -88.26    119.76       0.0      4UZM
+ASG  VAL A  144  109    E        Strand    -74.75     98.66       0.0      4UZM
+ASG  ILE A  145  110    E        Strand    -77.11    -24.42       9.4      4UZM
+ASG  SER A  146  111    E        Strand   -143.87    161.62      18.4      4UZM
+ASG  LEU A  147  112    E        Strand   -147.13    156.61       2.8      4UZM
+ASG  ASN A  148  113    T          Turn    -46.05    100.50      53.5      4UZM
+ASG  GLY A  149  114    T          Turn     80.68     23.34      74.6      4UZM
+ASG  HIS A  150  115    E        Strand   -157.00    159.36      45.8      4UZM
+ASG  THR A  151  116    E        Strand   -145.14    152.83      58.6      4UZM
+ASG  LEU A  152  117    C          Coil    -62.90    -38.27      19.8      4UZM
+ASG  GLN A  153  118    C          Coil   -123.92     75.33      68.9      4UZM
+ASG  GLU A  154  119    C          Coil    -90.27    360.00     217.7      4UZM

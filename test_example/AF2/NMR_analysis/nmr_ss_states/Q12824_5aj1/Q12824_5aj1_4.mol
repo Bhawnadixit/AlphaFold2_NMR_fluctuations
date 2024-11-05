@@ -1,0 +1,176 @@
+REM  --------------------------------------------------------------------  5AJ1
+REM                                                                        5AJ1
+REM  STRIDE: Knowledge-based secondary structure assignment                5AJ1
+REM  Please cite: D.Frishman & P.Argos, Proteins XX, XXX-XXX, 1995         5AJ1
+REM                                                                        5AJ1
+REM  Residue accessible surface area calculation                           5AJ1
+REM  Please cite: F.Eisenhaber & P.Argos, J.Comp.Chem. 14, 1272-1280, 1993 5AJ1
+REM               F.Eisenhaber et al., J.Comp.Chem., 1994, submitted       5AJ1
+REM                                                                        5AJ1
+REM  ------------------------ General information -----------------------  5AJ1
+REM                                                                        5AJ1
+HDR  STRUCTURAL PROTEIN                      19-FEB-15   5AJ1              5AJ1
+CMP  MOL_ID: 1;                                                            5AJ1
+CMP  2 MOLECULE: SWI/SNF-RELATED MATRIX-ASSOCIATED ACTIN-DEPENDENT         5AJ1
+CMP  3 OF CHROMATIN SUBFAMILY B MEMBER 1;                                  5AJ1
+CMP  4 CHAIN: A;                                                           5AJ1
+CMP  5 SYNONYM: BRG1-ASSOCIATED FACTOR 47, BAF47, INTEGRASE INTERA         5AJ1
+CMP  6 PROTEIN, SNF5 HOMOLOG, HSNF5, SMARC B1 DOMAIN;                      5AJ1
+CMP  7 ENGINEERED: YES;                                                    5AJ1
+CMP  8 OTHER_DETAILS: GGS AT THE N-TERMINUS RESULTS FROM A TEV CLE         5AJ1
+CMP  9 SITE.                                                               5AJ1
+REM                                                                        5AJ1
+REM  -------------------- Secondary structure summary -------------------  5AJ1
+REM                                                                        5AJ1
+CHN  test_example/AF2/NMR_analysis/nmr_state_ A                            5AJ1
+REM                                                                        5AJ1
+REM                .         .         .         .         .               5AJ1
+SEQ  1    GSMMMALSKTFGQKPVKFQLEDDGEFYMIGSEVGNYLRMFRGSLYKRYPS   50          5AJ1
+STR                       EEEEETTTEEEEEHHHHHHHH  TTTHHHHHTTT               5AJ1
+REM                                                                        5AJ1
+REM                .         .         .         .         .               5AJ1
+SEQ  51   LWRRLATVEERKKIVASSHGKKTKPNTKDHGYTTLATSVTLLKASEVEEI  100          5AJ1
+STR       T EEEE HHHHHHHHHHH    TTTT      TTTTTTEEEEEHHHHHHH               5AJ1
+REM                                                                        5AJ1
+REM                .                                                       5AJ1
+SEQ  101  LDGNDEKYKAVSIS                                      114          5AJ1
+STR       HH   GGGTTT                                                      5AJ1
+REM                                                                        5AJ1
+REM                                                                        5AJ1
+REM                                                                        5AJ1
+LOC  AlphaHelix   GLY    29 A      LEU     36 A                            5AJ1
+LOC  AlphaHelix   SER    42 A      ARG     46 A                            5AJ1
+LOC  AlphaHelix   VAL    57 A      SER     67 A                            5AJ1
+LOC  AlphaHelix   ALA    93 A      ASP    101 A                            5AJ1
+LOC  310Helix     GLU   105 A      TYR    107 A                            5AJ1
+LOC  Strand       LYS    16 A      GLU     20 A                            5AJ1
+LOC  Strand       GLU    24 A      ILE     28 A                            5AJ1
+LOC  Strand       ARG    52 A      ALA     55 A                            5AJ1
+LOC  Strand       VAL    88 A      LYS     92 A                            5AJ1
+LOC  TurnI        GLU    20 A      GLY     23 A                            5AJ1
+LOC  TurnIV       ASP    21 A      GLU     24 A                            5AJ1
+LOC  TurnI'       PHE    39 A      SER     42 A                            5AJ1
+LOC  TurnI        TYR    47 A      LEU     50 A                            5AJ1
+LOC  TurnIV       THR    72 A      ASN     75 A                            5AJ1
+LOC  TurnIV       THR    82 A      ALA     85 A                            5AJ1
+LOC  TurnIV       LEU    84 A      SER     87 A                            5AJ1
+LOC  TurnVIII     ALA    85 A      VAL     88 A                            5AJ1
+LOC  TurnI        TYR   107 A      VAL    110 A                            5AJ1
+REM                                                                        5AJ1
+REM  --------------- Detailed secondary structure assignment-------------  5AJ1
+REM                                                                        5AJ1
+REM  |---Residue---|    |--Structure--|   |-Phi-|   |-Psi-|  |-Area-|      5AJ1
+ASG  GLY A    0    1    C          Coil    360.00   -148.45     123.2      5AJ1
+ASG  SER A    1    2    C          Coil     60.27     94.86     131.9      5AJ1
+ASG  MET A    2    3    C          Coil   -126.15    -44.64     153.5      5AJ1
+ASG  MET A    3    4    C          Coil     60.73    172.96     172.7      5AJ1
+ASG  MET A    4    5    C          Coil   -152.11    123.10     147.6      5AJ1
+ASG  ALA A    5    6    C          Coil    -62.33    155.68      87.5      5AJ1
+ASG  LEU A    6    7    C          Coil   -138.05    -46.40     148.3      5AJ1
+ASG  SER A    7    8    C          Coil   -120.67    117.61      75.0      5AJ1
+ASG  LYS A    8    9    C          Coil   -115.95    -30.23      83.2      5AJ1
+ASG  THR A    9   10    C          Coil   -124.45    135.85      54.1      5AJ1
+ASG  PHE A   10   11    C          Coil   -138.32    126.41      82.0      5AJ1
+ASG  GLY A   11   12    C          Coil     95.50   -170.45      66.1      5AJ1
+ASG  GLN A   12   13    C          Coil    -67.67    157.05     151.3      5AJ1
+ASG  LYS A   13   14    C          Coil    -68.43    145.20      75.0      5AJ1
+ASG  PRO A   14   15    C          Coil    -59.82    158.27       3.3      5AJ1
+ASG  VAL A   15   16    C          Coil    -72.76    119.21       7.4      5AJ1
+ASG  LYS A   16   17    E        Strand   -113.15    160.30      86.9      5AJ1
+ASG  PHE A   17   18    E        Strand   -158.81    168.04       6.6      5AJ1
+ASG  GLN A   18   19    E        Strand   -102.84    128.01      74.7      5AJ1
+ASG  LEU A   19   20    E        Strand   -107.64    -22.52      37.7      5AJ1
+ASG  GLU A   20   21    E        Strand   -127.02    143.92      87.4      5AJ1
+ASG  ASP A   21   22    T          Turn    -65.72    -11.87     164.3      5AJ1
+ASG  ASP A   22   23    T          Turn    -81.10      0.51     120.4      5AJ1
+ASG  GLY A   23   24    T          Turn     98.37     26.01      43.7      5AJ1
+ASG  GLU A   24   25    E        Strand    -84.31    116.87      53.5      5AJ1
+ASG  PHE A   25   26    E        Strand   -111.68    134.12      88.7      5AJ1
+ASG  TYR A   26   27    E        Strand   -124.95    166.52      17.2      5AJ1
+ASG  MET A   27   28    E        Strand   -132.75    147.21       1.4      5AJ1
+ASG  ILE A   28   29    E        Strand    -77.86    121.21       2.6      5AJ1
+ASG  GLY A   29   30    H    AlphaHelix    -54.91    -26.43       6.3      5AJ1
+ASG  SER A   30   31    H    AlphaHelix    -63.11    -42.51      80.1      5AJ1
+ASG  GLU A   31   32    H    AlphaHelix    -71.35    -41.45      57.1      5AJ1
+ASG  VAL A   32   33    H    AlphaHelix    -62.59    -40.74       0.0      5AJ1
+ASG  GLY A   33   34    H    AlphaHelix    -63.71    -50.75       5.9      5AJ1
+ASG  ASN A   34   35    H    AlphaHelix    -64.97    -32.99      87.8      5AJ1
+ASG  TYR A   35   36    H    AlphaHelix    -61.37    -42.95      19.5      5AJ1
+ASG  LEU A   36   37    H    AlphaHelix    -92.91     -4.13      21.7      5AJ1
+ASG  ARG A   37   38    C          Coil     68.75     31.85     178.1      5AJ1
+ASG  MET A   38   39    C          Coil   -101.61    126.18      42.1      5AJ1
+ASG  PHE A   39   40    T          Turn   -126.60    174.97     117.4      5AJ1
+ASG  ARG A   40   41    T          Turn     57.74     33.76     234.9      5AJ1
+ASG  GLY A   41   42    T          Turn     73.13     19.11      38.6      5AJ1
+ASG  SER A   42   43    H    AlphaHelix    -58.37    -33.82      47.0      5AJ1
+ASG  LEU A   43   44    H    AlphaHelix    -64.83    -49.24       6.0      5AJ1
+ASG  TYR A   44   45    H    AlphaHelix    -71.45    -35.14      41.4      5AJ1
+ASG  LYS A   45   46    H    AlphaHelix    -69.10    -34.74     148.6      5AJ1
+ASG  ARG A   46   47    H    AlphaHelix    -86.71    -18.48     131.1      5AJ1
+ASG  TYR A   47   48    T          Turn   -135.18     60.73      16.1      5AJ1
+ASG  PRO A   48   49    T          Turn    -64.96    -28.16      60.4      5AJ1
+ASG  SER A   49   50    T          Turn    -78.74     -3.77      57.5      5AJ1
+ASG  LEU A   50   51    T          Turn    -75.55    140.54       5.3      5AJ1
+ASG  TRP A   51   52    C          Coil    -69.29    122.29      46.4      5AJ1
+ASG  ARG A   52   53    E        Strand   -139.12    138.63     136.3      5AJ1
+ASG  ARG A   53   54    E        Strand   -149.69    166.03     156.4      5AJ1
+ASG  LEU A   54   55    E        Strand    -96.13    151.88     126.5      5AJ1
+ASG  ALA A   55   56    E        Strand   -107.62    133.74      10.5      5AJ1
+ASG  THR A   56   57    C          Coil    -71.91    171.38      77.4      5AJ1
+ASG  VAL A   57   58    H    AlphaHelix    -59.52    -33.45      86.1      5AJ1
+ASG  GLU A   58   59    H    AlphaHelix    -70.48    -46.81     129.6      5AJ1
+ASG  GLU A   59   60    H    AlphaHelix    -62.66    -47.83      48.8      5AJ1
+ASG  ARG A   60   61    H    AlphaHelix    -60.77    -39.03      62.7      5AJ1
+ASG  LYS A   61   62    H    AlphaHelix    -58.05    -48.17     120.6      5AJ1
+ASG  LYS A   62   63    H    AlphaHelix    -67.96    -34.68     122.0      5AJ1
+ASG  ILE A   63   64    H    AlphaHelix    -59.77    -41.04       1.2      5AJ1
+ASG  VAL A   64   65    H    AlphaHelix    -70.88    -49.60      24.8      5AJ1
+ASG  ALA A   65   66    H    AlphaHelix    -72.33    -42.17      83.0      5AJ1
+ASG  SER A   66   67    H    AlphaHelix    -78.41    -51.23      86.6      5AJ1
+ASG  SER A   67   68    H    AlphaHelix    -75.67    -43.76      12.9      5AJ1
+ASG  HIS A   68   69    C          Coil   -106.18    156.02      43.1      5AJ1
+ASG  GLY A   69   70    C          Coil    157.53    -96.52      65.5      5AJ1
+ASG  LYS A   70   71    C          Coil   -114.19    108.88     171.0      5AJ1
+ASG  LYS A   71   72    C          Coil   -117.87    -34.83     143.3      5AJ1
+ASG  THR A   72   73    T          Turn    -92.87    173.19     103.0      5AJ1
+ASG  LYS A   73   74    T          Turn    -69.12    -61.38     192.8      5AJ1
+ASG  PRO A   74   75    T          Turn    -65.14    108.32     109.6      5AJ1
+ASG  ASN A   75   76    T          Turn   -137.46    113.82      97.7      5AJ1
+ASG  THR A   76   77    C          Coil   -148.29    -47.06     137.0      5AJ1
+ASG  LYS A   77   78    C          Coil    -57.23    144.87     170.2      5AJ1
+ASG  ASP A   78   79    C          Coil   -124.80    105.08     154.1      5AJ1
+ASG  HIS A   79   80    C          Coil   -120.84    170.64     122.4      5AJ1
+ASG  GLY A   80   81    C          Coil    -86.64    -40.09      65.1      5AJ1
+ASG  TYR A   81   82    C          Coil     62.17    118.37     166.2      5AJ1
+ASG  THR A   82   83    T          Turn   -145.65     78.68     111.8      5AJ1
+ASG  THR A   83   84    T          Turn   -112.00    -23.03     126.7      5AJ1
+ASG  LEU A   84   85    T          Turn   -149.08     62.85      32.0      5AJ1
+ASG  ALA A   85   86    T          Turn   -113.05    -27.23       3.3      5AJ1
+ASG  THR A   86   87    T          Turn    -72.01    -36.91     138.4      5AJ1
+ASG  SER A   87   88    T          Turn   -158.98    113.24      73.2      5AJ1
+ASG  VAL A   88   89    E        Strand   -111.46    127.27       0.8      5AJ1
+ASG  THR A   89   90    E        Strand    -90.89    114.46      40.7      5AJ1
+ASG  LEU A   90   91    E        Strand    -96.91    147.22       1.2      5AJ1
+ASG  LEU A   91   92    E        Strand   -135.27    156.32       0.0      5AJ1
+ASG  LYS A   92   93    E        Strand    -69.99    121.59      54.1      5AJ1
+ASG  ALA A   93   94    H    AlphaHelix    -50.89    -50.39      17.5      5AJ1
+ASG  SER A   94   95    H    AlphaHelix    -56.53    -33.91      71.7      5AJ1
+ASG  GLU A   95   96    H    AlphaHelix    -67.58    -49.47      23.7      5AJ1
+ASG  VAL A   96   97    H    AlphaHelix    -63.38    -34.80       0.2      5AJ1
+ASG  GLU A   97   98    H    AlphaHelix    -62.10    -45.10     107.4      5AJ1
+ASG  GLU A   98   99    H    AlphaHelix    -62.03    -48.29      51.4      5AJ1
+ASG  ILE A   99  100    H    AlphaHelix    -61.68    -38.94       2.1      5AJ1
+ASG  LEU A  100  101    H    AlphaHelix    -65.75    -35.31      23.7      5AJ1
+ASG  ASP A  101  102    H    AlphaHelix    -77.55    -15.88     130.4      5AJ1
+ASG  GLY A  102  103    C          Coil    101.89      3.06      31.2      5AJ1
+ASG  ASN A  103  104    C          Coil   -105.15    110.68      64.5      5AJ1
+ASG  ASP A  104  105    C          Coil   -160.13      8.65      18.7      5AJ1
+ASG  GLU A  105  106    G      310Helix    -51.67    -31.91     163.2      5AJ1
+ASG  LYS A  106  107    G      310Helix    -67.97    -33.74     127.3      5AJ1
+ASG  TYR A  107  108    G      310Helix    -81.06    -31.08      18.6      5AJ1
+ASG  LYS A  108  109    T          Turn    -84.86     -5.83      78.1      5AJ1
+ASG  ALA A  109  110    T          Turn   -103.82     30.61      61.5      5AJ1
+ASG  VAL A  110  111    T          Turn    -39.46    -32.21      53.3      5AJ1
+ASG  SER A  111  112    C          Coil     63.30    136.36      82.5      5AJ1
+ASG  ILE A  112  113    C          Coil   -112.61     36.97     167.9      5AJ1
+ASG  SER A  113  114    C          Coil    -67.33    360.00     169.8      5AJ1
