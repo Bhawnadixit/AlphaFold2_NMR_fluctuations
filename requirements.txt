@@ -1,0 +1,6 @@
+MDAnalysis
+argparse
+pandas
+numpy
+os
+re

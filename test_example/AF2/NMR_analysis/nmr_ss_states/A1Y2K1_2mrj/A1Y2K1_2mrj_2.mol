@@ -1,0 +1,160 @@
+REM  --------------------------------------------------------------------  2MRJ
+REM                                                                        2MRJ
+REM  STRIDE: Knowledge-based secondary structure assignment                2MRJ
+REM  Please cite: D.Frishman & P.Argos, Proteins XX, XXX-XXX, 1995         2MRJ
+REM                                                                        2MRJ
+REM  Residue accessible surface area calculation                           2MRJ
+REM  Please cite: F.Eisenhaber & P.Argos, J.Comp.Chem. 14, 1272-1280, 1993 2MRJ
+REM               F.Eisenhaber et al., J.Comp.Chem., 1994, submitted       2MRJ
+REM                                                                        2MRJ
+REM  ------------------------ General information -----------------------  2MRJ
+REM                                                                        2MRJ
+HDR  TRANSFERASE                             09-JUL-14   2MRJ              2MRJ
+CMP  MOL_ID: 1;                                                            2MRJ
+CMP  2 MOLECULE: TYROSINE-PROTEIN KINASE FYN;                              2MRJ
+CMP  3 CHAIN: A;                                                           2MRJ
+CMP  4 FRAGMENT: UNP RESIDUES 149-248;                                     2MRJ
+CMP  5 SYNONYM: PROTO-ONCOGENE SYN, PROTO-ONCOGENE C-FYN, SRC-LIKE         2MRJ
+CMP  6 SLK, P59-FYN;                                                       2MRJ
+CMP  7 EC: 2.7.10.2;                                                       2MRJ
+CMP  8 ENGINEERED: YES                                                     2MRJ
+REM                                                                        2MRJ
+REM  -------------------- Secondary structure summary -------------------  2MRJ
+REM                                                                        2MRJ
+CHN  test_example/AF2/NMR_analysis/nmr_state_ A                            2MRJ
+REM                                                                        2MRJ
+REM                .         .         .         .         .               2MRJ
+SEQ  1    WYFGKLGRKDAERQLLSFGNPRGTFLIRESETTKGAYSLSIRDWDDMKGD   50          2MRJ
+STR              HHHHHHHHHTTT TTTEEEEEETTTTTTTEEEEEE  TTTTT                2MRJ
+REM                                                                        2MRJ
+REM                .         .         .         .         .               2MRJ
+SEQ  51   HVKHYKIRKLDNGGYYITTRAQFETLQQLVQHYSERAAGLCCRLVVPCHK  100          2MRJ
+STR        EEEEEEEETTTT EEEETTEEE  HHHHHHHHHH TTTTTTTTTB                   2MRJ
+REM                                                                        2MRJ
+REM                                                                        2MRJ
+REM                                                                        2MRJ
+LOC  AlphaHelix   ARG   156 A      LEU    164 A                            2MRJ
+LOC  AlphaHelix   LEU   224 A      GLU    233 A                            2MRJ
+LOC  Strand       THR   172 A      GLU    177 A                            2MRJ
+LOC  Strand       TYR   185 A      ARG    190 A                            2MRJ
+LOC  Strand       VAL   200 A      LYS    207 A                            2MRJ
+LOC  Strand       TYR   213 A      THR    216 A                            2MRJ
+LOC  Strand       ALA   219 A      PHE    221 A                            2MRJ
+LOC  TurnI        LEU   164 A      GLY    167 A                            2MRJ
+LOC  TurnII       PRO   169 A      THR    172 A                            2MRJ
+LOC  TurnI        SER   178 A      THR    181 A                            2MRJ
+LOC  TurnVIII     GLU   179 A      LYS    182 A                            2MRJ
+LOC  TurnII       THR   181 A      ALA    184 A                            2MRJ
+LOC  TurnIV       ASP   193 A      LYS    196 A                            2MRJ
+LOC  TurnI        ASP   194 A      GLY    197 A                            2MRJ
+LOC  TurnI        LEU   208 A      GLY    211 A                            2MRJ
+LOC  TurnIV       TYR   214 A      THR    217 A                            2MRJ
+LOC  TurnI        THR   216 A      ALA    219 A                            2MRJ
+LOC  TurnVIII     THR   217 A      GLN    220 A                            2MRJ
+LOC  TurnIV       ALA   235 A      LEU    238 A                            2MRJ
+LOC  TurnVIII     LEU   238 A      ARG    241 A                            2MRJ
+LOC  GammaInv     ARG   241 A      VAL    243 A                            2MRJ
+REM                                                                        2MRJ
+REM  --------------- Detailed secondary structure assignment-------------  2MRJ
+REM                                                                        2MRJ
+REM  |---Residue---|    |--Structure--|   |-Phi-|   |-Psi-|  |-Area-|      2MRJ
+ASG  TRP A  149    1    C          Coil    360.00   -161.70      88.2      2MRJ
+ASG  TYR A  150    2    C          Coil    -39.99    142.11      98.9      2MRJ
+ASG  PHE A  151    3    C          Coil    -76.88    -46.89      92.8      2MRJ
+ASG  GLY A  152    4    C          Coil   -178.06   -122.90      21.6      2MRJ
+ASG  LYS A  153    5    C          Coil   -103.94     85.30     147.5      2MRJ
+ASG  LEU A  154    6    C          Coil   -154.64    153.87      35.7      2MRJ
+ASG  GLY A  155    7    C          Coil    177.36    -42.19       2.2      2MRJ
+ASG  ARG A  156    8    H    AlphaHelix    -79.38    -64.56     101.8      2MRJ
+ASG  LYS A  157    9    H    AlphaHelix    -84.73    -62.60     159.0      2MRJ
+ASG  ASP A  158   10    H    AlphaHelix    -58.88    -45.50      26.4      2MRJ
+ASG  ALA A  159   11    H    AlphaHelix    -66.27    -51.16       0.0      2MRJ
+ASG  GLU A  160   12    H    AlphaHelix    -61.03    -37.06      79.3      2MRJ
+ASG  ARG A  161   13    H    AlphaHelix    -72.73    -40.25     159.2      2MRJ
+ASG  GLN A  162   14    H    AlphaHelix    -79.10    -30.15       1.0      2MRJ
+ASG  LEU A  163   15    H    AlphaHelix    -68.57    -21.17       0.0      2MRJ
+ASG  LEU A  164   16    H    AlphaHelix   -108.22      2.63      71.4      2MRJ
+ASG  SER A  165   17    T          Turn    -72.97    -68.36      75.6      2MRJ
+ASG  PHE A  166   18    T          Turn    -87.40      2.72      84.4      2MRJ
+ASG  GLY A  167   19    T          Turn     83.84     15.72      53.2      2MRJ
+ASG  ASN A  168   20    C          Coil    -56.10    133.69       8.7      2MRJ
+ASG  PRO A  169   21    T          Turn    -75.91    172.66      71.1      2MRJ
+ASG  ARG A  170   22    T          Turn    -54.93    144.83     120.8      2MRJ
+ASG  GLY A  171   23    T          Turn    111.04    -14.68       0.0      2MRJ
+ASG  THR A  172   24    E        Strand    -76.21    134.35       0.0      2MRJ
+ASG  PHE A  173   25    E        Strand   -145.49    161.91       8.6      2MRJ
+ASG  LEU A  174   26    E        Strand   -160.40    172.47       0.0      2MRJ
+ASG  ILE A  175   27    E        Strand   -119.49    129.38       5.2      2MRJ
+ASG  ARG A  176   28    E        Strand   -123.25    149.53      25.9      2MRJ
+ASG  GLU A  177   29    E        Strand    -92.83    158.50      74.9      2MRJ
+ASG  SER A  178   30    T          Turn   -103.61     99.85      13.7      2MRJ
+ASG  GLU A  179   31    T          Turn    -65.41    -25.63      88.6      2MRJ
+ASG  THR A  180   32    T          Turn    -74.66    -25.55     126.1      2MRJ
+ASG  THR A  181   33    T          Turn   -134.38    105.93      72.1      2MRJ
+ASG  LYS A  182   34    T          Turn    -71.02    130.05     163.2      2MRJ
+ASG  GLY A  183   35    T          Turn    100.25    -16.91      23.1      2MRJ
+ASG  ALA A  184   36    T          Turn   -107.74    157.61      14.6      2MRJ
+ASG  TYR A  185   37    E        Strand   -160.81   -168.55       6.6      2MRJ
+ASG  SER A  186   38    E        Strand   -142.43    138.46       0.0      2MRJ
+ASG  LEU A  187   39    E        Strand    -84.20    127.36       1.6      2MRJ
+ASG  SER A  188   40    E        Strand   -108.81    109.57       0.0      2MRJ
+ASG  ILE A  189   41    E        Strand   -124.88    147.67       0.0      2MRJ
+ASG  ARG A  190   42    E        Strand    -80.00     97.17      31.3      2MRJ
+ASG  ASP A  191   43    C          Coil   -136.00    125.11      10.0      2MRJ
+ASG  TRP A  192   44    C          Coil    -98.72    161.53      92.5      2MRJ
+ASG  ASP A  193   45    T          Turn    -73.45     -9.65      51.8      2MRJ
+ASG  ASP A  194   46    T          Turn     78.62      4.04     127.4      2MRJ
+ASG  MET A  195   47    T          Turn   -104.06    -39.87     150.6      2MRJ
+ASG  LYS A  196   48    T          Turn   -103.43    -29.19     106.0      2MRJ
+ASG  GLY A  197   49    T          Turn     83.37     44.08      39.3      2MRJ
+ASG  ASP A  198   50    C          Coil    173.61    138.61      57.9      2MRJ
+ASG  HIS A  199   51    C          Coil    176.29    166.77      74.3      2MRJ
+ASG  VAL A  200   52    E        Strand   -136.00    122.41      16.4      2MRJ
+ASG  LYS A  201   53    E        Strand   -125.02    136.57      71.9      2MRJ
+ASG  HIS A  202   54    E        Strand   -105.81    131.54      53.3      2MRJ
+ASG  TYR A  203   55    E        Strand   -105.76    117.15      33.1      2MRJ
+ASG  LYS A  204   56    E        Strand    -71.93    118.42     161.2      2MRJ
+ASG  ILE A  205   57    E        Strand   -108.37    156.69      13.6      2MRJ
+ASG  ARG A  206   58    E        Strand   -110.50    144.18     169.6      2MRJ
+ASG  LYS A  207   59    E        Strand    -84.78    136.00      63.5      2MRJ
+ASG  LEU A  208   60    T          Turn    -75.32    147.91      27.0      2MRJ
+ASG  ASP A  209   61    T          Turn    -71.68    -19.79     171.8      2MRJ
+ASG  ASN A  210   62    T          Turn    -86.88     -3.04     115.4      2MRJ
+ASG  GLY A  211   63    T          Turn    110.01    -13.24      31.6      2MRJ
+ASG  GLY A  212   64    C          Coil    -82.63   -166.62       0.2      2MRJ
+ASG  TYR A  213   65    E        Strand   -139.67    153.26      44.9      2MRJ
+ASG  TYR A  214   66    E        Strand   -156.51    133.83      60.6      2MRJ
+ASG  ILE A  215   67    E        Strand    -90.70    -30.95      32.8      2MRJ
+ASG  THR A  216   68    E        Strand   -136.73    161.03      26.3      2MRJ
+ASG  THR A  217   69    T          Turn    -74.34    -17.71     110.5      2MRJ
+ASG  ARG A  218   70    T          Turn    -83.19     -9.94     171.5      2MRJ
+ASG  ALA A  219   71    E        Strand   -154.86     97.68       8.5      2MRJ
+ASG  GLN A  220   72    E        Strand   -123.56    143.41     105.9      2MRJ
+ASG  PHE A  221   73    E        Strand   -136.54    172.39      46.9      2MRJ
+ASG  GLU A  222   74    C          Coil   -102.49    -26.22     149.4      2MRJ
+ASG  THR A  223   75    C          Coil   -126.73    154.53      52.2      2MRJ
+ASG  LEU A  224   76    H    AlphaHelix    -73.90    -35.86      20.2      2MRJ
+ASG  GLN A  225   77    H    AlphaHelix    -60.42    -46.68     106.8      2MRJ
+ASG  GLN A  226   78    H    AlphaHelix    -68.42    -32.75     103.0      2MRJ
+ASG  LEU A  227   79    H    AlphaHelix    -60.12    -49.03       1.4      2MRJ
+ASG  VAL A  228   80    H    AlphaHelix    -56.80    -48.23       2.0      2MRJ
+ASG  GLN A  229   81    H    AlphaHelix    -59.35    -31.25      85.7      2MRJ
+ASG  HIS A  230   82    H    AlphaHelix    -75.76    -42.20      59.7      2MRJ
+ASG  TYR A  231   83    H    AlphaHelix    -76.44    -14.98       0.0      2MRJ
+ASG  SER A  232   84    H    AlphaHelix    -72.31    -30.93      45.8      2MRJ
+ASG  GLU A  233   85    H    AlphaHelix    -77.77    -42.32     133.2      2MRJ
+ASG  ARG A  234   86    C          Coil   -161.68    174.87     129.7      2MRJ
+ASG  ALA A  235   87    T          Turn    -98.32    109.54      36.1      2MRJ
+ASG  ALA A  236   88    T          Turn    -92.22     25.33       5.0      2MRJ
+ASG  GLY A  237   89    T          Turn    115.18     41.29      40.6      2MRJ
+ASG  LEU A  238   90    T          Turn   -127.62    164.91      18.8      2MRJ
+ASG  CYS A  239   91    T          Turn    -71.61    -25.73      80.9      2MRJ
+ASG  CYS A  240   92    T          Turn   -146.40    154.09      13.9      2MRJ
+ASG  ARG A  241   93    T          Turn    -83.13    162.89     125.4      2MRJ
+ASG  LEU A  242   94    T          Turn    -87.74     81.61       1.2      2MRJ
+ASG  VAL A  243   95    T          Turn    -83.96    -36.77      62.5      2MRJ
+ASG  VAL A  244   96    B        Bridge   -130.16    155.06      36.1      2MRJ
+ASG  PRO A  245   97    C          Coil    -94.77    168.79      65.7      2MRJ
+ASG  CYS A  246   98    C          Coil    -86.63    117.33      10.0      2MRJ
+ASG  HIS A  247   99    C          Coil   -138.02    131.43      98.7      2MRJ
+ASG  LYS A  248  100    C          Coil   -110.71    360.00     148.1      2MRJ
